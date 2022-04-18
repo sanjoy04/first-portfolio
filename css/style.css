@@ -10,9 +10,10 @@ body {
     background-size: 100% 100%;
     font-family: 'Lato', sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
 
 .logo img {
     width: 30px;
@@ -23,8 +24,8 @@ html {
     background-color: rgb(51, 51, 51, 0.3);
     overflow: hidden;
     position: fixed;
-  top: 0;
-  width: 100%;
+    top: 0;
+    width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -59,7 +60,7 @@ html {
 
 /* Home Section */
 .home {
-    height: 45rem;
+    height: 100vh;
 }
 
 .heading-text {
@@ -72,90 +73,106 @@ html {
     color: white;
     text-shadow: 2px 2px black;
 }
-.heading-text h1{
+
+.heading-text h1 {
     font-size: 3.6rem;
     padding-bottom: 1rem;
 }
-.heading-text p{
+
+.heading-text p {
     font-size: 2rem;
 }
 
 /* About section */
-.about{
+.about {
     background-color: rgb(51, 51, 51, 0.7);
 }
-.aboutMe{
+
+.aboutMe {
     display: flex;
     align-items: center;
     text-align: center;
     color: white;
     padding: 2rem, 4rem;
-    
+
 }
-.aboutImg img{
+
+.aboutImg img {
     border-radius: 50%;
     margin: 2rem 4rem;
 }
-.aboutText{
+
+.aboutText {
     margin: 2rem 4rem;
     line-height: 1.8;
 }
-.aboutText h1{
+
+.aboutText h1 {
     padding-bottom: 1rem;
 }
 
 /* Skills section */
-.skills-heading{
+.skills-heading {
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 3rem;
 }
-.skills{
+
+.skills {
     background-color: white;
 }
-.box-container{
+
+.box-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 3rem;
     align-items: center;
 }
-.box-container img{
+
+.box-container img {
     width: 50px;
     margin-bottom: 1rem;
 }
-.box{
+
+.box {
     text-align: center;
     line-height: 1.8;
     margin: 3rem 2rem;
 }
 
 /* contact section */
-.contact{
-    background-color: rgb(64, 71, 78);;
+.contact {
+    background-color: rgb(64, 71, 78);
+    ;
     color: white;
     text-align: center;
     padding: 2rem 0;
 }
-.contact .container img{
+
+.contact .container img {
     width: 70px;
     border-radius: 50%;
     margin-bottom: 2rem;
 }
-.contact .container h2{
+
+.contact .container h2 {
     margin-bottom: 1rem;
 }
-.contact .container p{
+
+.contact .container p {
     margin: 1rem 0;
 }
-.contact .social a img{
+
+.contact .social a img {
     width: 20px;
 }
-.contact .social a{
+
+.contact .social a {
     margin: 0.4rem;
 }
 
 
-.copyright{
+.copyright {
     background-color: rgb(64, 71, 78);
     padding: 1rem 0;
     text-align: center;
@@ -189,17 +206,21 @@ html {
         display: block;
         text-align: left;
     }
-    .aboutMe{
+
+    .aboutMe {
         flex-direction: column;
     }
-    .heading-text h1{
+
+    .heading-text h1 {
         font-size: 2rem;
         padding-bottom: 0.5rem;
     }
-    .heading-text p{
+
+    .heading-text p {
         font-size: 1rem;
     }
-    .box-container{
+
+    .box-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
